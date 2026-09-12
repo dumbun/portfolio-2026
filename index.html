@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamsali Vamshi Krishna — Flutter Developer & Data Analyst</title>
+  <meta name="description"
+    content="Kamsali Vamshi Krishna — Flutter Developer and Data Analyst based in Hyderabad, specializing in high-performance mobile apps and Power BI data warehousing." />
+  <meta name="theme-color" content="#090b10" />
+  <meta property="og:title" content="Kamsali Vamshi Krishna — Flutter Developer & Data Analyst" />
+  <meta property="og:description"
+    content="Passionate Flutter developer and data analyst with a track record of building production-ready apps and data warehouses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.vamshikrishna.xyz/" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="preload" as="image" href="./public/vamshikrishna.png" fetchpriority="high">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- Loading screen — inline styles so it paints before CSS loads -->
+  <div id="loader"
+    style="position:fixed;inset:0;z-index:9999;background:#090b10;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;transition:opacity .5s ease,visibility .5s ease">
+    <div class="loader-brand"
+      style="font-family:Manrope,system-ui,sans-serif;font-weight:800;font-size:2rem;color:#f6f7f9;letter-spacing:-.05em">
+      KVS<span style="color:#c7ff68">•</span></div>
+    <div class="loader-spinner"
+      style="width:36px;height:36px;border:2.5px solid rgba(255,255,255,.08);border-top-color:#c7ff68;border-radius:50%;animation:spin .7s linear infinite">
+    </div>
+    <style>
+      @keyframes spin {
+        to {
+          transform: rotate(360deg)
+        }
+      }
+    </style>
+  </div>
+
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">KVS<span>•</span></a>
+      <button class="menu" id="menu" aria-label="Open navigation">☰</button>
+      <nav class="nav-links" id="links">
+        <a href="#story">Story</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#data">Data &amp; BI</a>
+        <a href="#skills">Skills</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.linkedin.com/in/vamshi-krishna-kamsali-b38709155/" target="_blank" rel="noreferrer"
+          style="color:var(--accent)">LinkedIn ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" style="border-top:0">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <div class="eyebrow"> Flutter Developer · Data Analyst · Power BI &amp; SQL</div>
+          <h1>Kamsali<br>Vamshi<br><span>Krishna.</span></h1>
+          <p class="lead">
+            I turn raw data and rough ideas into things people can actually use — Power BI dashboards, SQL data
+            warehouses, and mobile apps. Currently a Flutter Developer Intern at Client Server Technology Solutions
+            in Hyderabad, with two years of operational data-quality experience at Amazon UK behind me and an MSc in
+            Computing Science from Edinburgh Napier University.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="#work">Explore Flutter Apps ↓</a>
+            <a class="btn" href="#data">View Data &amp; BI work ↓</a>
+            <a class="btn" href="https://www.linkedin.com/in/vamshi-krishna-kamsali-b38709155/" target="_blank"
+              rel="noreferrer">LinkedIn ↗</a>
+            <a class="btn" href="https://github.com/dumbun" target="_blank" rel="noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <img class="hero-photo" id="heroPhoto" src="./public/vamshikrishna.png" alt="Kamsali Vamshi Krishna"
+            fetchpriority="high" decoding="async"
+            onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'hero-photo-fallback',textContent:'KVK'}))">
+          <div class="hero-label">
+            <strong>Data + Product mindset</strong>
+            <span>Bridging logic &amp; user experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">01 / Story</div>
+            <h2>Data-driven analyst. Hands-on builder.</h2>
+          </div>
+          <p>
+            A data analyst's eye for clean, trustworthy numbers, paired with an engineer's habit of shipping real,
+            working products end to end.
+          </p>
+        </div>
+
+        <div class="story-grid">
+          <div class="card reveal">
+            <div class="quote">“I collect and clean data, build the model, ship the dashboard — then make sure the
+              numbers actually hold up.”</div>
+            <div class="chips">
+              <span class="chip">Power BI</span><span class="chip">SQL / T-SQL</span>
+              <span class="chip">Power Query &amp; DAX</span><span class="chip">Data Warehousing</span>
+              <span class="chip">Flutter</span><span class="chip">JavaScript</span>
+              <span class="chip">Photography</span><span class="chip">Video editing</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <h3>What I do</h3>
+            <p>
+              Day to day, I own the full analytics workflow — pulling data from multiple sources, cleaning and modelling
+              it,
+              and building interactive Power BI dashboards and SQL warehouses that hold up to scrutiny from business
+              stakeholders. That habit of validating everything came from two years auditing inventory data at Amazon
+              UK.
+            </p>
+            <p style="margin-top:16px">
+              On the engineering side, I build and ship mobile products in Flutter — currently as an intern at Client
+              Server
+              Technology Solutions, and previously as the lead developer behind a published finance-tracking app used by
+              real shopkeepers and small lenders.
+            </p>
+          </div>
+        </div>
+
+        <div class="services" style="margin-top:16px">
+          <article class="service reveal">
+            <svg width="52" height="52" viewBox="0 0 24 24" fill="none" style="margin-bottom:28px">
+              <rect x="3" y="12" width="4" height="9" rx="1" fill="#c7ff68" />
+              <rect x="10" y="7" width="4" height="14" rx="1" fill="#8db6ff" />
+              <rect x="17" y="3" width="4" height="18" rx="1" fill="#ffca63" />
+            </svg>
+            <h3>Data &amp; BI</h3>
+            <p>Cleaning and modelling data, then building Power BI dashboards and SQL warehouses stakeholders can trust.
+            </p>
+          </article>
+          <article class="service reveal">
+            <svg width="52" height="52" viewBox="0 0 24 24" fill="none" style="margin-bottom:28px">
+              <path d="M8 5 2 12l6 7M16 5l6 7-6 7M14 3 10 21" stroke="#c7ff68" stroke-width="1.6" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <h3>Mobile &amp; web development</h3>
+            <p>Shipping real Flutter and web products end to end — from database schema to production release.</p>
+          </article>
+          <article class="service reveal">
+            <svg width="52" height="52" viewBox="0 0 24 24" fill="none" style="margin-bottom:28px">
+              <circle cx="12" cy="12" r="9" stroke="#8db6ff" stroke-width="1.6" />
+              <path d="M12 7v5l3.5 2" stroke="#ffca63" stroke-width="1.6" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <h3>Creating</h3>
+            <p>Videos, web pages, photography and digital art — creative work that sits alongside the engineering.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">02 / Experience</div>
+            <h2>Real products, not just tutorials.</h2>
+          </div>
+          <p>From auditing inventory data at Amazon UK to shipping Flutter apps and Power BI dashboards — a track record
+            of owning work end to end.</p>
+        </div>
+
+        <div class="experience">
+          <article class="exp reveal">
+            <div class="exp-date">PRESENT · HYDERABAD</div>
+            <div>
+              <h3>Flutter Developer Intern · Client Server Technology Solutions</h3>
+              <div class="meta">Uppal, Hyderabad · Internship · On-site</div>
+              <p>
+                Currently building mobile features in Flutter/Dart as part of the development team at Client Server
+                Technology Solutions, an IT consulting and software services company based in Uppal, Hyderabad.
+              </p>
+            </div>
+          </article>
+
+          <article class="exp reveal">
+            <div class="exp-date">SEP 2023 — OCT 2025</div>
+            <div>
+              <h3>Warehouse Operations &amp; Quality Associate · Amazon UK</h3>
+              <div class="meta">Amazon EDI4, Dunfermline, Scotland · Full-time</div>
+              <p>
+                Performed audits, cycle counts and stock verification across ICQA, Stow and Customer Returns to
+                validate data accuracy. Analyzed operational datasets in Excel and internal dashboards to track quality
+                metrics and investigate discrepancies — while independently building and maintaining the Self-Finance
+                app outside working hours. Also served as Instructor/Ambassador, onboarding and training new associates
+                on procedures, quality standards and data-handling best practices.
+              </p>
+            </div>
+          </article>
+
+          <article class="exp reveal">
+            <div class="exp-date">MAY — JUL 2023</div>
+            <div>
+              <h3>Intern Flutter Developer · RedParrot Technology LLP</h3>
+              <div class="meta">Bengaluru · Full-time · Remote</div>
+              <p>
+                Built and shipped features in Flutter/Dart for two live Android applications — Education Progress
+                Tracker (EPT) and Divine Duty — integrating multiple external APIs into production app architecture.
+                Worked across SQL, Firebase, Git, Bitbucket, GitLab and Jira in a fast-moving startup environment.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="proof-grid" style="margin-top:16px">
+          <div class="proof reveal"><strong>2 yrs</strong><span>Operational data-quality experience at Amazon UK</span>
+          </div>
+          <div class="proof reveal"><strong>3</strong><span>Data &amp; BI projects — Power BI + SQL warehousing</span>
+          </div>
+          <div class="proof reveal"><strong>2</strong><span>Live Android apps shipped at RedParrot</span></div>
+          <div class="proof reveal"><strong>370+</strong><span>Commits on the published Self-Finance app</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">03 / Selected work</div>
+            <h2>Projects with something to show.</h2>
+          </div>
+          <p>External product descriptions and imagery have been folded into the project case studies instead of leaving
+            them as plain links.</p>
+        </div>
+
+        <div class="projects">
+          <article class="project feature reveal">
+            <div>
+              <div class="top"><span class="num">01 · FLAGSHIP PROJECT</span><span class="tech">Flutter · Dart ·
+                  Riverpod · Drift/SQLite</span></div>
+              <div class="feature-layout"
+                style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 32px; align-items: start; margin-top: 17px; margin-bottom: 30px;">
+                <div>
+                  <h3 style="margin-top:0;">Self-Finance</h3>
+                  <p>
+                    A published, offline-first finance-tracking app for shopkeepers and small lenders — managing
+                    customer
+                    ledgers, credit entries, repayments and simple-interest loan calculations — taken from concept to
+                    Play Store release across 370+ commits. A fully reactive data layer (Drift/SQLite streams +
+                    Riverpod)
+                    powers custom-painted analytics charts (yearly/monthly/weekly/today), drill-down transaction
+                    breakdowns
+                    and live KPI cards for outstanding amounts, interest earned and disbursements. It also ships a
+                    secure,
+                    encrypted local backup/restore system and a PDF invoice generator, keeping all customer data
+                    on-device
+                    with zero external data collection.
+                  </p>
+                </div>
+                <div class="app-icon-display"
+                  style="border: 1px solid var(--line); border-radius: 20px; background: #090c12; display: flex; align-items: center; justify-content: center; min-height: 240px; box-shadow: var(--shadow);">
+                  <img src="./public/screenshots/sf-icon.png" alt="Self-Finance App Icon" loading="lazy"
+                    style="width: 120px; height: 120px; border-radius: 24px; filter: drop-shadow(0px 8px 16px rgba(0,0,0,0.4));">
+                </div>
+              </div>
+
+              <div class="gallery">
+                <div class="shot feature-card">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" style="margin-bottom:12px">
+                    <rect x="2" y="4" width="6" height="16" rx="2" fill="#c7ff68" opacity=".8" />
+                    <rect x="9" y="8" width="6" height="12" rx="2" fill="#8db6ff" opacity=".7" />
+                    <rect x="16" y="2" width="6" height="18" rx="2" fill="#ffca63" opacity=".7" />
+                  </svg>
+                  <strong class="mono" style="color:var(--accent);font-size:.72rem">KPI CARDS</strong>
+                  <small style="color:var(--muted);font-size:.65rem;margin-top:4px">Outstanding · Interest ·
+                    Disbursements</small>
+                </div>
+                <div class="shot feature-card">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" style="margin-bottom:12px">
+                    <polyline points="3,18 7,12 11,15 15,6 21,10" stroke="#8db6ff" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    <circle cx="7" cy="12" r="2" fill="#c7ff68" opacity=".8" />
+                    <circle cx="15" cy="6" r="2" fill="#ffca63" opacity=".8" />
+                  </svg>
+                  <strong class="mono" style="color:var(--blue);font-size:.72rem">CUSTOM CHARTS</strong>
+                  <small style="color:var(--muted);font-size:.65rem;margin-top:4px">Yearly / monthly / weekly /
+                    today</small>
+                </div>
+                <div class="shot feature-card">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" style="margin-bottom:12px">
+                    <rect x="4" y="8" width="16" height="12" rx="3" stroke="#ffca63" stroke-width="1.6" />
+                    <path d="M8 8V6a4 4 0 0 1 8 0v2" stroke="#c7ff68" stroke-width="1.6" stroke-linecap="round" />
+                    <circle cx="12" cy="15" r="1.5" fill="#8db6ff" />
+                  </svg>
+                  <strong class="mono" style="color:var(--warm);font-size:.72rem">ENCRYPTED BACKUP</strong>
+                  <small style="color:var(--muted);font-size:.65rem;margin-top:4px">On-device · zero data
+                    collection</small>
+                </div>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span class="num">Led development · 370+ commits · Play Store release</span>
+              <span>
+                <a class="link" href="https://github.com/dumbun/self-finance" target="_blank" rel="noreferrer">GitHub
+                  →</a>
+                &nbsp;&nbsp;
+                <a class="link" href="https://self-finance-web.vercel.app/" target="_blank" rel="noreferrer">Website
+                  →</a>
+                &nbsp;&nbsp;
+                <a class="link"
+                  href="https://ebony-wholesaler-6b8.notion.site/Self-finance-app-dd8b4092b35e408fa4538713b4361a6d"
+                  target="_blank" rel="noreferrer">Project notes →</a>
+              </span>
+            </div>
+          </article>
+
+          <div class="mini-projects">
+            <article class="project mini-project reveal">
+              <div>
+                <div class="top"><span class="num">02 · PRODUCT</span><span class="tech">Flutter</span></div>
+                <h3>Education Progress Tracker</h3>
+                <p>
+                  A free school management system covering student management, attendance, fees, transportation,
+                  communication, library, hostel, exams and reporting.
+                </p>
+                <div class="gallery">
+                  <div class="shot"><img src="./public/screenshots/ept-1.png" alt="EPT app screenshot" loading="lazy"
+                      decoding="async"></div>
+                  <div class="shot"><img src="./public/screenshots/ept-2.png" alt="EPT app screenshot" loading="lazy"
+                      decoding="async"></div>
+                  <div class="shot"><img src="./public/screenshots/ept-3.png" alt="EPT app screenshot" loading="lazy"
+                      decoding="async"></div>
+                </div>
+              </div>
+              <a class="link" href="https://play.google.com/store/apps/details?id=guru.ept.mobile" target="_blank"
+                rel="noreferrer">Open on Google Play →</a>
+            </article>
+
+            <article class="project mini-project reveal">
+              <div>
+                <div class="top"><span class="num">03 · PRODUCT</span><span class="tech">Mobile · directory</span></div>
+                <h3>Divine Duty</h3>
+                <p>
+                  Church directory and management software covering church discovery, events, push notifications,
+                  online donations, sermons/resources, member management and reports.
+                </p>
+                <div class="gallery">
+                  <div class="shot tall"><img src="./public/screenshots/dd-1.png" alt="Divine Duty screenshot"
+                      loading="lazy" decoding="async"></div>
+                  <div class="shot tall"><img src="./public/screenshots/dd-2.png" alt="Divine Duty screenshot"
+                      loading="lazy" decoding="async"></div>
+                </div>
+              </div>
+              <a class="link" href="https://play.google.com/store/apps/details?id=global.redparrot.divineduty"
+                target="_blank" rel="noreferrer">Open on Google Play →</a>
+            </article>
+          </div>
+
+          <div class="card reveal" style="margin-top:4px">
+            <h3>More builds</h3>
+            <p>Smaller web and mobile experiments from earlier on — kept around as proof of range and repetition.</p>
+            <div class="chips" style="margin-top:16px">
+              <a class="chip" href="https://github.com/dumbun/In-Touch-Messenger" target="_blank"
+                rel="noreferrer">In-Touch Messenger (Flutter) ↗</a>
+              <a class="chip" href="https://github.com/dumbun/Personal-Expenses" target="_blank"
+                rel="noreferrer">Personal Expenses (Flutter) ↗</a>
+              <a class="chip" href="https://github.com/dumbun/sign-up-page-flutter" target="_blank"
+                rel="noreferrer">Sign-up UI (Flutter) ↗</a>
+              <a class="chip" href="https://dumbun.github.io/tindog/" target="_blank" rel="noreferrer">Tindog landing
+                page ↗</a>
+              <a class="chip" href="https://dumbun.github.io/Random-Dicee/" target="_blank" rel="noreferrer">Random
+                Dicee ↗</a>
+              <a class="chip" href="https://dumbun.github.io/Drum-Kit/" target="_blank" rel="noreferrer">Drum Kit ↗</a>
+              <a class="chip" href="https://dumbun.github.io/SIMON-Game/" target="_blank" rel="noreferrer">Simon Game
+                ↗</a>
+              <a class="chip" href="https://dumbun.github.io/rock-paper-scissors/" target="_blank" rel="noreferrer">Rock
+                Paper Scissors ↗</a>
+              <a class="chip" href="https://dumbun.github.io/weather-app/" target="_blank" rel="noreferrer">Weather App
+                ↗</a>
+              <a class="chip" href="https://dumbun.github.io/Tip-Calculator/" target="_blank" rel="noreferrer">Tip
+                Calculator ↗</a>
+              <a class="chip" href="https://pinterest-clone-fawn.vercel.app/" target="_blank" rel="noreferrer">Pinterest
+                Clone ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="data">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">04 / Data & BI</div>
+            <h2>Turning raw tables into decisions.</h2>
+          </div>
+          <p>Power BI dashboards and a full SQL data warehouse — the analytics side of the resume, built with the same
+            rigor as the apps.</p>
+        </div>
+
+        <div class="projects">
+          <article class="project reveal">
+            <div class="top"><span class="num">01 · DATA PROJECT</span><span class="tech">Power BI · Power Query ·
+                DAX</span></div>
+            <h3 style="font-size:1.6rem">Sales Dashboard 2026 — Power BI</h3>
+            <p>
+              A single-page Power BI report analyzing sales performance by product, category, country and time.
+              Power Query cleans and shapes raw CSV sales data into an orders/customers model; DAX measures cover
+              total sales, order counts and distinct customer counts. Two related tables (orders, customers) are
+              joined on customer_id, with KPI cards for total orders, unique customers and total sales, plus a
+              yearly/quarterly trend line, a product-ranking bar chart, and a category donut chart — all filterable
+              by date range, category and country.
+            </p>
+            <div class="project-footer">
+              <span class="num">Model: orders + customers</span>
+              <span><a class="link" href="https://github.com/dumbun/Sales-Dashboard-2026-Power-BI-" target="_blank"
+                  rel="noreferrer">GitHub →</a></span>
+            </div>
+          </article>
+
+          <div class="mini-projects">
+            <article class="project mini-project reveal" style="min-height:auto">
+              <div>
+                <div class="top"><span class="num">02 · DATA PROJECT</span><span class="tech">SQL Server · T-SQL</span>
+                </div>
+                <h3 style="font-size:1.6rem">SQL Data Warehouse Project</h3>
+                <p>
+                  A SQL Server data warehouse built with Medallion Architecture (Bronze/Silver/Gold), integrating ERP
+                  and CRM source data delivered as CSVs. ETL pipelines and stored procedures ingest raw data (Bronze),
+                  cleanse and standardize it (Silver), and model it into a star schema of fact and dimension tables
+                  (Gold) optimized for reporting — with data-quality test scripts validating the Silver and Gold
+                  layers, and a documented data catalog and architecture diagrams for stakeholders.
+                </p>
+              </div>
+              <a class="link" href="https://github.com/dumbun/sql-data-warehouse-project" target="_blank"
+                rel="noreferrer">GitHub →</a>
+            </article>
+
+            <article class="project mini-project reveal" style="min-height:auto">
+              <div>
+                <div class="top"><span class="num">03 · DATA PROJECT</span><span class="tech">SQL Server · T-SQL</span>
+                </div>
+                <h3 style="font-size:1.6rem">SQL Exploratory Data Analysis</h3>
+                <p>
+                  A library of 13+ SQL scripts exploring a relational sales database — database and dimension
+                  exploration, date-range checks, measures, magnitude and ranking analysis, time-based trends,
+                  cumulative and part-to-whole analysis, and customer/product segmentation, using joins, CTEs, window
+                  functions and aggregates to build reusable performance reports.
+                </p>
+              </div>
+              <a class="link" href="https://github.com/dumbun/sql-exploratory-data-analsis-project" target="_blank"
+                rel="noreferrer">GitHub →</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">05 / Toolkit</div>
+            <h2>A mix of analytics, engineering and creative tools.</h2>
+          </div>
+          <p>Grouped straight from the resume — BI, databases, programming and the tools that hold projects together.
+          </p>
+        </div>
+
+        <div class="card reveal" style="margin-bottom:12px">
+          <h3
+            style="font-size:.95rem;color:var(--accent);text-transform:uppercase;letter-spacing:.08em;font-family:'JetBrains Mono',monospace">
+            BI &amp; Analytics</h3>
+          <div class="chips" style="margin-top:14px">
+            <span class="chip">Power BI</span><span class="chip">Power Query</span><span class="chip">DAX</span>
+            <span class="chip">Data Modeling</span><span class="chip">Interactive Dashboards</span>
+            <span class="chip">Data Warehousing (ETL)</span><span class="chip">Medallion Architecture</span>
+            <span class="chip">Star Schema</span><span class="chip">Data Validation &amp; QA</span><span
+              class="chip">Advanced Excel</span>
+          </div>
+        </div>
+
+        <div class="card reveal" style="margin-bottom:12px">
+          <h3
+            style="font-size:.95rem;color:var(--blue);text-transform:uppercase;letter-spacing:.08em;font-family:'JetBrains Mono',monospace">
+            Databases &amp; Query Languages</h3>
+          <div class="chips" style="margin-top:14px">
+            <span class="chip">SQL</span><span class="chip">T-SQL / SQL Server</span><span class="chip">MySQL</span>
+            <span class="chip">MSSQL</span><span class="chip">MongoDB</span><span class="chip">SQLite / Drift</span>
+          </div>
+        </div>
+
+        <div class="card reveal" style="margin-bottom:12px">
+          <h3
+            style="font-size:.95rem;color:var(--warm);text-transform:uppercase;letter-spacing:.08em;font-family:'JetBrains Mono',monospace">
+            Programming &amp; Development</h3>
+          <div class="chips" style="margin-top:14px">
+            <span class="chip">Dart</span><span class="chip">Flutter</span><span class="chip">JavaScript</span>
+            <span class="chip">Java</span><span class="chip">React.js</span><span class="chip">Node.js</span>
+            <span class="chip">HTML</span><span class="chip">CSS</span>
+          </div>
+        </div>
+
+        <div class="skills">
+          <div class="skill reveal"><b>Git / GitHub</b><small>Version control</small></div>
+          <div class="skill reveal"><b>Bitbucket / GitLab</b><small>Version control</small></div>
+          <div class="skill reveal"><b>Jira</b><small>Agile tracking</small></div>
+          <div class="skill reveal"><b>Firebase</b><small>Backend / auth</small></div>
+          <div class="skill reveal"><b>Zoho · MS Office</b><small>Productivity</small></div>
+          <div class="skill reveal"><b>After Effects · ProCreate</b><small>Motion &amp; digital art</small></div>
+          <div class="skill reveal"><b>Adobe Premiere Pro</b><small>Video editing</small></div>
+          <div class="skill reveal"><b>Photography</b><small>Visual storytelling</small></div>
+        </div>
+
+        <div class="chips" style="margin-top:16px">
+          <span class="chip">Data cleaning &amp; transformation</span><span class="chip">Cross-functional
+            collaboration</span>
+          <span class="chip">Reporting automation</span><span class="chip">Analytical thinking</span>
+          <span class="chip">Attention to detail</span><span class="chip">Agile development</span>
+          <span class="chip">Ownership &amp; accountability</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="credentials">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">06 / Credentials</div>
+            <h2>Education, certifications and languages.</h2>
+          </div>
+          <p>Formal education plus the certifications backing up the Data &amp; BI and web development skills above.</p>
+        </div>
+
+        <div class="credentials">
+          <article class="credential reveal">
+            <div class="label">Education</div>
+            <h3>MSc Computing Science</h3>
+            <p>Edinburgh Napier University, Edinburgh, UK · Sep 2023 – Aug 2024</p>
+            <h3 style="margin-top:22px">BTech Electronic Communication Engineering</h3>
+            <p>TKR College of Engineering and Technology, India · Jun 2018 – Apr 2022</p>
+          </article>
+          <article class="credential reveal">
+            <div class="label">Languages</div>
+            <p style="margin-top:8px">English (Fluent) · Telugu (Native)</p>
+            <div class="label" style="margin-top:20px">Connect</div>
+            <p style="margin-top:6px">All certifications below are also listed on my LinkedIn profile.</p>
+            <div class="actions" style="margin-top:16px"><a class="btn"
+                href="https://www.linkedin.com/in/vamshi-krishna-kamsali-b38709155/" target="_blank"
+                rel="noreferrer">LinkedIn profile ↗</a></div>
+          </article>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-badge reveal">
+            <a href="https://www.hackerrank.com/certificates/bf3d9b4d77f8">
+              <div class="cert-icon">SQL</div>
+              <h4>SQL (Basic) Certificate</h4>
+              <span>HackerRank</span>
+            </a>
+          </article>
+          <article class="cert-badge reveal">
+            <a href="https://www.udemy.com/certificate/UC-f9a5a846-169f-4ad2-b5f6-2117660aaee7/">
+              <div class="cert-icon">&lt;/&gt;</div>
+              <h4>The Complete 2023 Web Development Bootcamp</h4>
+              <span>Udemy</span>
+            </a>
+          </article>
+          <article class="cert-badge reveal">
+            <a
+              href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20Nordics/KJGjQRHZ6eGquTKfF_Accenture%20Nordics_uw7jm4oMvuvc7wvr9_1672914179708_completion_certificate.pdf">
+              <div class="cert-icon">AN</div>
+              <h4>Accenture Nordics Consultant Virtual Experience Program</h4>
+              <span>Accenture Nordics</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container contact">
+        <div class="contact-main reveal">
+          <div class="kicker">07 / Contact</div>
+          <h2>Build something worth showing.</h2>
+          <p>
+            I’m open to Data Analyst, Power BI/SQL, and Flutter development opportunities where analysis, engineering
+            and a bit of creativity can come together. Based in Hyderabad — coffee and good ideas are welcome too.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="mailto:vamshikrishna8289@gmail.com">Email me ↗</a>
+            <a class="btn" href="tel:+919666013375">Call ↗</a>
+            <a class="btn" href="https://www.linkedin.com/in/vamshi-krishna-kamsali-b38709155/" target="_blank"
+              rel="noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="contact-links">
+          <a class="contact-link reveal"
+            href="mailto:vamshikrishna8289@gmail.com"><span><small>Email</small><b>vamshikrishna8289@gmail.com</b></span><span>↗</span></a>
+          <a class="contact-link reveal" href="tel:+919666013375"><span><small>Phone</small><b>+91 96660
+                13375</b></span><span>↗</span></a>
+          <a class="contact-link reveal" href="https://github.com/dumbun" target="_blank"
+            rel="noreferrer"><span><small>Code</small><b>github.com/dumbun</b></span><span>↗</span></a>
+          <a class="contact-link reveal" href="https://www.linkedin.com/in/vamshi-krishna-kamsali-b38709155/"
+            target="_blank" rel="noreferrer"><span><small>Professional
+                profile</small><b>LinkedIn</b></span><span>↗</span></a>
+          <a class="contact-link reveal" href="#top"><span><small>Location</small><b>Hyderabad,
+                India</b></span><span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <span>© <span id="year"></span> Kamsali Vamshi Krishna</span>
+      <span class="mono">Data Analyst · Power BI &amp; SQL · Flutter Developer</span>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script type="module" src="./script.js"></script>
+</body>
+
+</html>
