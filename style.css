@@ -20,7 +20,7 @@
  }
 
  html {
-     scroll-behavior: smooth
+     /* Removed scroll-behavior: smooth to allow native OS client refresh rate (120Hz/144Hz) scrolling */
  }
 
  body {
@@ -399,7 +399,8 @@
      color: #cbd2dd;
      font: 400 .68rem "JetBrains Mono", monospace;
      transition: transform .2s ease, border-color .2s ease, background .2s ease;
-     will-change: transform
+     will-change: transform;
+     transform: translateZ(0)
  }
 
  .chip:hover {
@@ -431,7 +432,8 @@
      background: linear-gradient(160deg, rgba(255, 255, 255, .035), rgba(255, 255, 255, .012));
      min-height: 300px;
      transition: transform .35s ease, border-color .35s ease, box-shadow .35s ease;
-     will-change: transform
+     will-change: transform;
+     transform: translateZ(0)
  }
 
  .service:hover {
@@ -522,7 +524,8 @@
      padding: 29px;
      background: linear-gradient(145deg, #131925, #0c1016);
      transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
-     will-change: transform
+     will-change: transform;
+     transform: translateZ(0)
  }
 
  .project:hover {
